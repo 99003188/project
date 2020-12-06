@@ -50,6 +50,6 @@ double cylinder(double input1,double input2);
 * @return integer value of the operand1 / operand2
 * @note returns 0 for divide by 0 error
 */
-double BMI(double input1,double height);
+double BMI(double input1,double input2);
 
 #endif  /* #define __CALCULATOR_OPERATIONS_H__ */
