@@ -34,7 +34,7 @@ int main() {
 
 //-------------------------------------------------------ARITHEMETIC OPERATIONS----------------------------------------------
 void test_square(void) {
-  CU_ASSERT_EQUAL(9.00,square(3));
+  CU_ASSERT_EQUAL(9.00, square(3));
 }
 
 void test_rectangle(void) {
