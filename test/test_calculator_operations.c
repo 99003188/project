@@ -2,7 +2,7 @@
 #include <CUnit/CUnit.h>
 
 #include "calculator_operations.h"
-#define PROJECT_NAME "calculator"
+#define PROJECT_NAME "calculator_operations"
 
 void test_square(void);
 void test_rectangle(void);
@@ -34,10 +34,10 @@ int main() {
 
 //-------------------------------------------------------ARITHEMETIC OPERATIONS----------------------------------------------
 void test_square(void) {
-  CU_ASSERT_EQUAL(9,square(3));
+  CU_ASSERT_EQUAL(9.00,square(3));
 }
 
 void test_rectangle(void) {
-  CU_ASSERT_EQUAL(20, rectangle(10,2));
+  CU_ASSERT_EQUAL(20.00, rectangle(10,2));
 }
 
