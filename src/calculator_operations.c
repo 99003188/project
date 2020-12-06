@@ -1,5 +1,5 @@
 #include<calculator_operations.h>
-int sqaure(int input1)
+int square(int input1)
 {
     return(input1*input1);
 }
