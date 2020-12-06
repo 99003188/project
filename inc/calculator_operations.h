@@ -16,7 +16,7 @@
 * @param[in] operand2
 * @return Result of operand1 + operand2
 */
-int square();
+int square(int input1);
 
 /**
 *  subtracts the operand1, operand2 and returns the result
@@ -24,7 +24,7 @@ int square();
 * @param[in] operand2
 * @return Result of operand1 - operand2
 */
-int rectangle();
+int rectangle(int input1,int input2);
 
 /**
 *  multiply the operand1, operand2 and returns the result
@@ -32,7 +32,7 @@ int rectangle();
 * @param[in] operand2
 * @return Result of operand1 * operand2
 */
-double cone();
+double cone(int input1,int input2);
 
 
 /**
@@ -42,7 +42,7 @@ double cone();
 * @return integer value of the operand1 / operand2
 * @note returns 0 for divide by 0 error
 */
-double cylinder();
+double cylinder(int input1,int input2);
 /**
 * divides the operand1 by operand2 and returns the result
 * @param[in] operand1
@@ -50,6 +50,6 @@ double cylinder();
 * @return integer value of the operand1 / operand2
 * @note returns 0 for divide by 0 error
 */
-double BMI();
+double BMI(int input1,double height);
 
 #endif  /* #define __CALCULATOR_OPERATIONS_H__ */
