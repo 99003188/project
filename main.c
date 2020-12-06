@@ -12,7 +12,7 @@ int main()
     case 1:
         printf("enter the side:\n");
         scanf("%d",&input1);
-        printf("The area of square = %d",sqaure(input1));
+        printf("The area of square = %d",square(input1));
         break;
     case 2:
         printf("Enter the length and breadth:\n");
