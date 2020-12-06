@@ -17,9 +17,9 @@ double cylinder(double input1,double input2)
 }
 double BMI(double input1, double input2)
 {
-    if(height>0)
+    if(input2>0)
     return(input1/(input2*input2));
-    else if(height<=0)
+    else if(input2<=0)
     {
     printf("enter correct details");
     return 0;
