@@ -1,24 +1,24 @@
 #include<calculator_operations.h>
-int square(int input1)
+double square(double input1)
 {
     return(input1*input1);
 }
-int rectangle(int input1, int input2)
+double rectangle(double input1, double input2)
 {
     return(input1*input2);
 }
-double cone(int input1,int input2)
+double cone(souble input1,double input2)
 {
     return(0.33*3.14*input1*input2*input1);
 }
-double cylinder(int input1,int input2)
+double cylinder(double input1,double input2)
 {
     return(3.14*input1*input2*input1);
 }
-double BMI(int input1, double height)
+double BMI(double input1, double input2)
 {
     if(height>0)
-    return(input1/(height*height));
+    return(input1/(input2*input2));
     else if(height<=0)
     {
     printf("enter correct details");
