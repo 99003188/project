@@ -7,7 +7,7 @@ double rectangle(double input1, double input2)
 {
     return(input1*input2);
 }
-double cone(souble input1,double input2)
+double cone(double input1,double input2)
 {
     return(0.33*3.14*input1*input2*input1);
 }
